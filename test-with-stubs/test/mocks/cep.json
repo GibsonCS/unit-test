@@ -1,0 +1,11 @@
+{
+    "cepMock": {
+        "address": {
+            "cep": "undefined",
+            "logradouro": "undefined",
+            "bairro": "undefined",
+            "localidade": "undefined",
+            "uf": "undefined"
+        }
+    }
+}
