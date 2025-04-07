@@ -1,0 +1,17 @@
+{
+  "name": "e2e-coverage",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "npx mocha test/*.test.js",
+    "test:dev": "npx mocha -w test/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
