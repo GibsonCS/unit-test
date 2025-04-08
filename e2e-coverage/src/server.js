@@ -17,10 +17,14 @@ const routes = {
        if(user.username !== DEFAULT_CREDENTIALS.login || user.password !== DEFAULT_CREDENTIALS.password) {
         response.writeHead(401)
         return response.end('unauthorized!')
+       } else {
+        
+        response.writeHead(200)
+        return response.end('Succeced!')
        }
     },
 
-    default(request, response){
+    default(_, response){
         response.writeHead(404)
         return response.end('not found!')
     }
